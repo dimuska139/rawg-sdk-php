@@ -1,0 +1,1052 @@
+{
+  "count": 291,
+  "next": "https://api.rawg.io/api/games/1/suggested?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 432527,
+      "slug": "peaky-blinders-mastermind",
+      "name": "Peaky Blinders: Mastermind",
+      "released": "2020-06-01",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/421/42119c476afe602d7b48805368426a75.jpg",
+      "rating": 0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 24,
+      "added_by_status": {
+        "yet": 3,
+        "owned": 13,
+        "toplay": 8
+      },
+      "metacritic": null,
+      "playtime": 1,
+      "suggestions_count": 509,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 251793,
+            "image_background": "https://media.rawg.io/media/games/88c/88c5b4d7c80276c03ff62aebb1a99ad4.jpg"
+          },
+          "released_at": "2020-08-20",
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 7/8.1/10 x64<br></li><li><strong>Processor:</strong> Intel i5-760 (4*2800) or equivalent<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 760<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 5 GB available space</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system</li></ul>"
+          },
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 3341,
+            "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+          },
+          "released_at": "2020-06-01",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 3742,
+            "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+          },
+          "released_at": "2020-08-20",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 5036,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2020-08-19",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 65983,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Strategy",
+          "slug": "strategy",
+          "games_count": 31159,
+          "image_background": "https://media.rawg.io/media/games/054/0549f1a0a5e782d4e81cdf8d022073fa.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 30468,
+          "image_background": "https://media.rawg.io/media/games/9fa/9fa63622543e5d4f6d99aa9d73b043de.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Puzzle",
+          "slug": "puzzle",
+          "games_count": 51292,
+          "image_background": "https://media.rawg.io/media/games/e07/e07737df8469bf32d132ba9eaffc3461.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 472848,
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store",
+            "domain": "store.playstation.com",
+            "games_count": 6681,
+            "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+          },
+          "url_en": "https://store.playstation.com/en-us/product/UP4395-CUSA15236_00-PEAKYBLINDERS000",
+          "url_ru": ""
+        },
+        {
+          "id": 464395,
+          "store": {
+            "id": 2,
+            "name": "Xbox Store",
+            "slug": "xbox-store",
+            "domain": "microsoft.com",
+            "games_count": 3356,
+            "image_background": "https://media.rawg.io/media/games/d69/d69810315bd7e226ea2d21f9156af629.jpg"
+          },
+          "url_en": "https://www.microsoft.com/en-us/p/peaky-blinders-mastermind/9n3jd9j577gq?cid=msft_web_chart",
+          "url_ru": ""
+        },
+        {
+          "id": 423650,
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 42622,
+            "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+          },
+          "url_en": "https://store.steampowered.com/app/1013310/Peaky_Blinders_Mastermind/",
+          "url_ru": null
+        }
+      ],
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/85d/85dac068baa13310466a85b18593a05e.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/e93/e93c47f3bc65fc14c40fee60eba19bbc.mp4",
+          "640": "https://media.rawg.io/media/stories-640/85d/85dac068baa13310466a85b18593a05e.mp4",
+          "full": "https://media.rawg.io/media/stories/973/973c82b97a25db4743769386d8006bc8.mp4"
+        },
+        "video": "ODz1IA5FLBM",
+        "preview": "https://media.rawg.io/media/stories-previews/9bd/9bdfa2ae4e82e1c6f87eaa479acb5037.jpg"
+      },
+      "tags": [
+        {
+          "id": 40836,
+          "name": "Full controller support",
+          "slug": "full-controller-support",
+          "language": "eng",
+          "games_count": 8823,
+          "image_background": "https://media.rawg.io/media/games/b49/b4912b5dbfc7ed8927b65f05b8507f6c.jpg"
+        },
+        {
+          "id": 40847,
+          "name": "Steam Achievements",
+          "slug": "steam-achievements",
+          "language": "eng",
+          "games_count": 18691,
+          "image_background": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"
+        },
+        {
+          "id": 40849,
+          "name": "Steam Cloud",
+          "slug": "steam-cloud",
+          "language": "eng",
+          "games_count": 8804,
+          "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+        },
+        {
+          "id": 144,
+          "name": "Crime",
+          "slug": "crime",
+          "language": "eng",
+          "games_count": 1517,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 142,
+          "name": "Detective",
+          "slug": "detective",
+          "language": "eng",
+          "games_count": 1067,
+          "image_background": "https://media.rawg.io/media/games/0af/0af85e8edddfa55368e47c539914a220.jpg"
+        },
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 83033,
+          "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+        },
+        {
+          "id": 302,
+          "name": "Time Manipulation",
+          "slug": "time-manipulation",
+          "language": "eng",
+          "games_count": 60,
+          "image_background": "https://media.rawg.io/media/screenshots/62f/62ffa88bda2ddf991835f583fe7d4bef.jpeg"
+        },
+        {
+          "id": 61,
+          "name": "Top-Down",
+          "slug": "top-down",
+          "language": "eng",
+          "games_count": 7721,
+          "image_background": "https://media.rawg.io/media/screenshots/a65/a65e9f01832997a4d913b3ea86319af4.jpg"
+        },
+        {
+          "id": 34,
+          "name": "Violent",
+          "slug": "violent",
+          "language": "eng",
+          "games_count": 3793,
+          "image_background": "https://media.rawg.io/media/games/5bf/5bf88a28de96321c86561a65ee48e6c2.jpg"
+        },
+        {
+          "id": 568,
+          "name": "Time Management",
+          "slug": "time-management",
+          "language": "eng",
+          "games_count": 46,
+          "image_background": "https://media.rawg.io/media/screenshots/27b/27bd326f0c5d4892247dfbbe0b2a2a4d.jpg"
+        },
+        {
+          "id": 5140,
+          "name": "indie-game",
+          "slug": "indie-game",
+          "language": "eng",
+          "games_count": 94,
+          "image_background": "https://media.rawg.io/media/screenshots/93a/93ada8de22a8c3c00b5073484b70e7e6.jpg"
+        },
+        {
+          "id": 8657,
+          "name": "noire",
+          "slug": "noire",
+          "language": "eng",
+          "games_count": 9,
+          "image_background": "https://media.rawg.io/media/screenshots/f32/f32792e3b6cb094e4a610ff6913611a5.jpg"
+        },
+        {
+          "id": 14272,
+          "name": "strategy-action",
+          "slug": "strategy-action",
+          "language": "eng",
+          "games_count": 3,
+          "image_background": "https://media.rawg.io/media/screenshots/487/48799bae67db636f74ca4d7d57678cfc.jpg"
+        },
+        {
+          "id": 18894,
+          "name": "strategy-puzzle",
+          "slug": "strategy-puzzle",
+          "language": "eng",
+          "games_count": 3,
+          "image_background": "https://media.rawg.io/media/screenshots/bbd/bbd25e44708049d84825bae721641a7f.jpg"
+        },
+        {
+          "id": 25027,
+          "name": "tv-series",
+          "slug": "tv-series",
+          "language": "eng",
+          "games_count": 4,
+          "image_background": "https://media.rawg.io/media/screenshots/74d/74da48af158d3df6b8fd2dd485768c0e.jpg"
+        },
+        {
+          "id": 43374,
+          "name": "Remote Play on TV",
+          "slug": "remote-play-on-tv",
+          "language": "eng",
+          "games_count": 61,
+          "image_background": "https://media.rawg.io/media/games/66d/66d058a6cee7e2a781c00ee111f6f5cb.jpg"
+        }
+      ],
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/421/42119c476afe602d7b48805368426a75.jpg"
+        },
+        {
+          "id": 2355753,
+          "image": "https://media.rawg.io/media/screenshots/f81/f817d6ec3f81cb4cf3bc4c8e7d7dc5f3.jpg"
+        },
+        {
+          "id": 2355754,
+          "image": "https://media.rawg.io/media/screenshots/a4c/a4c1c1fb2947a8c8fb8a3c743817d4bc.jpg"
+        },
+        {
+          "id": 2355755,
+          "image": "https://media.rawg.io/media/screenshots/50d/50da08cecfc6eecda7da31ff105b5557.jpg"
+        },
+        {
+          "id": 2355756,
+          "image": "https://media.rawg.io/media/screenshots/458/458f7b50411dce42196e2db66c3e0691.jpg"
+        },
+        {
+          "id": 2355757,
+          "image": "https://media.rawg.io/media/screenshots/e42/e4244aa1fa874085caf871a32eb7d663.jpg"
+        },
+        {
+          "id": 2355758,
+          "image": "https://media.rawg.io/media/screenshots/351/3513c451b4f259c0dc7ac6621b3c030f.jpg"
+        }
+      ],
+      "short_description": "Peaky Blinders: Mastermind is an indie, adventure, strategy and puzzle game developed by FuturLab. It came out on 01-06-2020. It was published by Curve Digital. \nPeaky Blinders: Mastermind is available on PC, Nintendo Switch, Xbox One and PlayStation 4. You can purchase the game on PlayStation Store, Xbox Store and Steam. \n\n"
+    },
+    {
+      "id": 62547,
+      "slug": "super-strawberry-man",
+      "name": "Super Strawberry Man",
+      "released": "2018-11-02",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/0ac/0ac4499667d4cd5956619d727df41fbc.jpg",
+      "rating": 0,
+      "rating_top": 0,
+      "ratings": [],
+      "ratings_count": 0,
+      "reviews_text_count": 0,
+      "added": 2,
+      "added_by_status": {
+        "owned": 2
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 295,
+      "user_game": null,
+      "reviews_count": 0,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 39347,
+            "image_background": "https://media.rawg.io/media/games/b7b/b7b8381707152afc7d91f5d95de70e39.jpg"
+          },
+          "released_at": "2018-11-02",
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04 or Higher<br></li><li><strong>Processor:</strong> Dual Core 1 Ghz+<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> 128 MB of Video Memory<br></li><li><strong>Storage:</strong> 30 MB available space<br></li><li><strong>Sound Card:</strong> Any Compatible Sound Card</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubumtu 16.04<br></li><li><strong>Processor:</strong> Dual Core 1 Ghz+<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> 256 MB of Video Memory<br></li><li><strong>Storage:</strong> 30 MB available space<br></li><li><strong>Sound Card:</strong> Any Compatible Sound Card</li></ul>"
+          },
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 251793,
+            "image_background": "https://media.rawg.io/media/games/88c/88c5b4d7c80276c03ff62aebb1a99ad4.jpg"
+          },
+          "released_at": "2018-11-02",
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows XP, Vista, 7, 8/8.1, 10<br></li><li><strong>Processor:</strong> Dual Core 1 Ghz or higher<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> 128 MB of Video Memory, Capable of Shader Model 2.0+<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Storage:</strong> 30 MB available space<br></li><li><strong>Sound Card:</strong> Any Compatible Sound Card</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 7, 8/8.1, 10<br></li><li><strong>Processor:</strong> Dual Core 2Ghz+<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> 256 MB of Video Memory, Capable of Shader Model 2.0+<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Storage:</strong> 30 MB available space<br></li><li><strong>Sound Card:</strong> Any Compatible Sound Card</li></ul>"
+          },
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 6,
+            "name": "Linux",
+            "slug": "linux"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 94969,
+          "image_background": "https://media.rawg.io/media/games/ad2/ad2ffdf80ba993654f31da045bc02456.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 65983,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 40,
+          "name": "Casual",
+          "slug": "casual",
+          "games_count": 26372,
+          "image_background": "https://media.rawg.io/media/games/f15/f15e1dbda32b588a981bbc6b222a4b4c.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 30468,
+          "image_background": "https://media.rawg.io/media/games/9fa/9fa63622543e5d4f6d99aa9d73b043de.jpg"
+        },
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer",
+          "games_count": 43069,
+          "image_background": "https://media.rawg.io/media/games/f8c/f8c6a262ead4c16b47e1219310210eb3.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 398306,
+          "store": {
+            "id": 9,
+            "name": "itch.io",
+            "slug": "itch",
+            "domain": "itch.io",
+            "games_count": 284693,
+            "image_background": "https://media.rawg.io/media/screenshots/95a/95a557d6dfa6430dd662a136d71e5915.jpg"
+          },
+          "url_en": "https://amaxang-games.itch.io/super-strawberry-man",
+          "url_ru": null
+        },
+        {
+          "id": 53470,
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 42622,
+            "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+          },
+          "url_en": "https://store.steampowered.com/app/914900/",
+          "url_ru": null
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 45,
+          "name": "2D",
+          "slug": "2d",
+          "language": "eng",
+          "games_count": 74309,
+          "image_background": "https://media.rawg.io/media/games/f8c/f8c6a262ead4c16b47e1219310210eb3.jpg"
+        },
+        {
+          "id": 40836,
+          "name": "Full controller support",
+          "slug": "full-controller-support",
+          "language": "eng",
+          "games_count": 8823,
+          "image_background": "https://media.rawg.io/media/games/b49/b4912b5dbfc7ed8927b65f05b8507f6c.jpg"
+        },
+        {
+          "id": 69,
+          "name": "Action-Adventure",
+          "slug": "action-adventure",
+          "language": "eng",
+          "games_count": 5596,
+          "image_background": "https://media.rawg.io/media/games/fd8/fd882c8267a44621a0de6f9cec77ae90.jpg"
+        },
+        {
+          "id": 40847,
+          "name": "Steam Achievements",
+          "slug": "steam-achievements",
+          "language": "eng",
+          "games_count": 18691,
+          "image_background": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"
+        },
+        {
+          "id": 115,
+          "name": "Controller",
+          "slug": "controller",
+          "language": "eng",
+          "games_count": 4582,
+          "image_background": "https://media.rawg.io/media/games/8ee/8eed88e297441ef9202b5d1d35d7d86f.jpg"
+        },
+        {
+          "id": 49,
+          "name": "Difficult",
+          "slug": "difficult",
+          "language": "eng",
+          "games_count": 6846,
+          "image_background": "https://media.rawg.io/media/games/48e/48e63bbddeddbe9ba81942772b156664.jpg"
+        },
+        {
+          "id": 122,
+          "name": "Pixel Graphics",
+          "slug": "pixel-graphics",
+          "language": "eng",
+          "games_count": 34960,
+          "image_background": "https://media.rawg.io/media/games/5f4/5f4780690dbf04900cbac5f05b9305f3.jpg"
+        },
+        {
+          "id": 74,
+          "name": "Retro",
+          "slug": "retro",
+          "language": "eng",
+          "games_count": 15536,
+          "image_background": "https://media.rawg.io/media/games/6c0/6c00ee85d1344f58c469e8e47fd8ae7c.jpg"
+        },
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 83033,
+          "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+        }
+      ],
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/0ac/0ac4499667d4cd5956619d727df41fbc.jpg"
+        },
+        {
+          "id": 847811,
+          "image": "https://media.rawg.io/media/screenshots/fd1/fd1b2b1b8e0bba1260db1d0a0462a4db.jpg"
+        },
+        {
+          "id": 847812,
+          "image": "https://media.rawg.io/media/screenshots/41b/41b0982f5645c9e3a776c07e53077161.jpg"
+        },
+        {
+          "id": 847813,
+          "image": "https://media.rawg.io/media/screenshots/237/237f1409f563849b7ed2182ef6915b2e.jpg"
+        },
+        {
+          "id": 847814,
+          "image": "https://media.rawg.io/media/screenshots/740/7409f115415ff0adbdcce40229b0014e.jpg"
+        },
+        {
+          "id": 847815,
+          "image": "https://media.rawg.io/media/screenshots/443/44350a8ccfa59e0b26532c6ebded8b1c.jpg"
+        },
+        {
+          "id": 847816,
+          "image": "https://media.rawg.io/media/screenshots/18e/18e4ff9214645892b8c92e3149ffbc80.jpg"
+        }
+      ],
+      "short_description": "Super Strawberry Man is a casual, action, adventure and platformer game developed by Anamik Majumdar and AMAXANG GAMES. It came out on 02-11-2018. It was published by Anamik Majumdar. \nYou can play Super Strawberry Man on Linux and PC. You can purchase the game on itch.io and Steam. \n\n"
+    },
+    {
+      "id": 375197,
+      "slug": "exit-the-gungeon",
+      "name": "Exit the Gungeon",
+      "released": "2020-03-16",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/28c/28c4b2b8d8c190e8ba4133bef8f96f83.jpg",
+      "rating": 3.81,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 18,
+          "percent": 66.67
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 5,
+          "percent": 18.52
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 3,
+          "percent": 11.11
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 3.7
+        }
+      ],
+      "ratings_count": 26,
+      "reviews_text_count": 0,
+      "added": 120,
+      "added_by_status": {
+        "yet": 10,
+        "owned": 59,
+        "beaten": 9,
+        "toplay": 23,
+        "dropped": 16,
+        "playing": 3
+      },
+      "metacritic": null,
+      "playtime": 2,
+      "suggestions_count": 450,
+      "user_game": null,
+      "reviews_count": 27,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 251793,
+            "image_background": "https://media.rawg.io/media/games/88c/88c5b4d7c80276c03ff62aebb1a99ad4.jpg"
+          },
+          "released_at": "2020-03-16",
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 7, 8, 8.1, 10 x64<br></li><li><strong>Processor:</strong> Intel Core2 Duo E4500 (2 * 2200)<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> GeForce 9600 GT (512 MB)<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Additional Notes:</strong> Gamepad Recommended</li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 7, 8, 8.1, 10 x64<br></li><li><strong>Processor:</strong> Intel Core i3-2100 (2 * 3100) or equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> GeForce GTX 550Ti (1024 MB)<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Additional Notes:</strong> Gamepad Recommended</li></ul>"
+          },
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "iOS",
+            "slug": "ios",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 66842,
+            "image_background": "https://media.rawg.io/media/games/4cb/4cb855e8ef1578415a928e53c9f51867.png"
+          },
+          "released_at": "2020-03-16",
+          "requirements_en": {
+            "minimum": "iPhone 5s, iPad Air, iPad Air Cellular, iPad Mini Retina, iPad Mini Retina Cellular, iPhone 6, iPhone 6 Plus, iPad Air 2, iPad Air 2 Cellular, iPad Mini 3, iPad Mini 3 Cellular, iPod Touch Sixth Gen, iPhone 6s, iPhone 6s Plus, iPad Mini 4, iPad Mini 4 Cellular, iPad Pro, iPad Pro Cellular, iPad Pro 9.7, iPad Pro 9.7 Cellular, iPhone SE, iPhone 7, iPhone 7 Plus, iPad 6 1 1, iPad 6 1 2, iPad 7 1, iPad 7 2, iPad 7 3, iPad 7 4, iPhone 8, iPhone 8 Plus, iPhone X, iPad 7 5, iPad 7 6, iPhone X S, iPhone X S Max, iPhone X R, iPad 8 1 2, iPad 8 3 4, iPad 8 5 6, iPad 8 7 8, iPad Mini 5, iPad Mini 5 Cellular, iPad Air 3, iPad Air 3 Cellular, iPod Touch Seventh Gen, iPhone 1 1, iPhone 1 1 Pro, iPad Seventh Gen, iPad Seventh Gen Cellular, iPhone 1 1 Pro Max"
+          },
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo Switch",
+            "slug": "nintendo-switch",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 3341,
+            "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+          },
+          "released_at": "2020-03-16",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 57222,
+            "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+          },
+          "released_at": "2020-03-16",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "iOS",
+            "slug": "ios"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        },
+        {
+          "platform": {
+            "id": 7,
+            "name": "Nintendo",
+            "slug": "nintendo"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 94969,
+          "image_background": "https://media.rawg.io/media/games/ad2/ad2ffdf80ba993654f31da045bc02456.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Adventure",
+          "slug": "adventure",
+          "games_count": 65983,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 51,
+          "name": "Indie",
+          "slug": "indie",
+          "games_count": 30468,
+          "image_background": "https://media.rawg.io/media/games/9fa/9fa63622543e5d4f6d99aa9d73b043de.jpg"
+        },
+        {
+          "id": 83,
+          "name": "Platformer",
+          "slug": "platformer",
+          "games_count": 43069,
+          "image_background": "https://media.rawg.io/media/games/f8c/f8c6a262ead4c16b47e1219310210eb3.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 431262,
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog",
+            "domain": "gog.com",
+            "games_count": 2703,
+            "image_background": "https://media.rawg.io/media/games/7c4/7c448374df84b607f67ce9182a3a3ca7.jpg"
+          },
+          "url_en": "http://www.gog.com/game/exit_the_gungeon",
+          "url_ru": ""
+        },
+        {
+          "id": 418990,
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 42622,
+            "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+          },
+          "url_en": "https://store.steampowered.com/app/1209490/",
+          "url_ru": ""
+        },
+        {
+          "id": 410511,
+          "store": {
+            "id": 6,
+            "name": "Nintendo Store",
+            "slug": "nintendo",
+            "domain": "nintendo.com",
+            "games_count": 7777,
+            "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+          },
+          "url_en": "https://www.nintendo.com/games/detail/exit-the-gungeon-switch/",
+          "url_ru": null
+        },
+        {
+          "id": 364743,
+          "store": {
+            "id": 4,
+            "name": "App Store",
+            "slug": "apple-appstore",
+            "domain": "apps.apple.com",
+            "games_count": 65298,
+            "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+          },
+          "url_en": "https://apps.apple.com/it/app/exit-the-gungeon/id1445379179",
+          "url_ru": null
+        }
+      ],
+      "clip": null,
+      "tags": [
+        {
+          "id": 45,
+          "name": "2D",
+          "slug": "2d",
+          "language": "eng",
+          "games_count": 74309,
+          "image_background": "https://media.rawg.io/media/games/f8c/f8c6a262ead4c16b47e1219310210eb3.jpg"
+        },
+        {
+          "id": 40836,
+          "name": "Full controller support",
+          "slug": "full-controller-support",
+          "language": "eng",
+          "games_count": 8823,
+          "image_background": "https://media.rawg.io/media/games/b49/b4912b5dbfc7ed8927b65f05b8507f6c.jpg"
+        },
+        {
+          "id": 40847,
+          "name": "Steam Achievements",
+          "slug": "steam-achievements",
+          "language": "eng",
+          "games_count": 18691,
+          "image_background": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"
+        },
+        {
+          "id": 13,
+          "name": "Atmospheric",
+          "slug": "atmospheric",
+          "language": "eng",
+          "games_count": 9073,
+          "image_background": "https://media.rawg.io/media/games/91c/91c4f377c1e09755b60a0102c5252843.jpg"
+        },
+        {
+          "id": 57,
+          "name": "Bullet Hell",
+          "slug": "bullet-hell",
+          "language": "eng",
+          "games_count": 3229,
+          "image_background": "https://media.rawg.io/media/screenshots/2b8/2b86c68a911ca1dd4828e22364e077ea.jpg"
+        },
+        {
+          "id": 49,
+          "name": "Difficult",
+          "slug": "difficult",
+          "language": "eng",
+          "games_count": 6846,
+          "image_background": "https://media.rawg.io/media/games/48e/48e63bbddeddbe9ba81942772b156664.jpg"
+        },
+        {
+          "id": 48,
+          "name": "Dungeon Crawler",
+          "slug": "dungeon-crawler",
+          "language": "eng",
+          "games_count": 2670,
+          "image_background": "https://media.rawg.io/media/games/c1e/c1e869edee943ac3f36608b4c019b374.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Funny",
+          "slug": "funny",
+          "language": "eng",
+          "games_count": 9656,
+          "image_background": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+        },
+        {
+          "id": 42,
+          "name": "Great Soundtrack",
+          "slug": "great-soundtrack",
+          "language": "eng",
+          "games_count": 3002,
+          "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+        },
+        {
+          "id": 98,
+          "name": "Loot",
+          "slug": "loot",
+          "language": "eng",
+          "games_count": 974,
+          "image_background": "https://media.rawg.io/media/games/d0f/d0f91fe1d92332147e5db74e207cfc7a.jpg"
+        },
+        {
+          "id": 122,
+          "name": "Pixel Graphics",
+          "slug": "pixel-graphics",
+          "language": "eng",
+          "games_count": 34960,
+          "image_background": "https://media.rawg.io/media/games/5f4/5f4780690dbf04900cbac5f05b9305f3.jpg"
+        },
+        {
+          "id": 74,
+          "name": "Retro",
+          "slug": "retro",
+          "language": "eng",
+          "games_count": 15536,
+          "image_background": "https://media.rawg.io/media/games/6c0/6c00ee85d1344f58c469e8e47fd8ae7c.jpg"
+        },
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 83033,
+          "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+        },
+        {
+          "id": 640,
+          "name": "Roguelite",
+          "slug": "roguelite",
+          "language": "eng",
+          "games_count": 1505,
+          "image_background": "https://media.rawg.io/media/screenshots/929/92962e1c3902b9a89b91c09c8f1a17b2.jpg"
+        },
+        {
+          "id": 639,
+          "name": "Roguelike",
+          "slug": "roguelike",
+          "language": "eng",
+          "games_count": 4497,
+          "image_background": "https://media.rawg.io/media/games/3be/3be0e624424d3453005019799a760af2.jpg"
+        },
+        {
+          "id": 822,
+          "name": "escape",
+          "slug": "escape",
+          "language": "eng",
+          "games_count": 4624,
+          "image_background": "https://media.rawg.io/media/screenshots/808/80846bed4848a50e1ce8ae7ca43fc504.jpg"
+        },
+        {
+          "id": 981,
+          "name": "battle",
+          "slug": "battle",
+          "language": "eng",
+          "games_count": 8013,
+          "image_background": "https://media.rawg.io/media/games/c06/c06edf54c45016c6e5edc2235a29c7d3.jpg"
+        },
+        {
+          "id": 1190,
+          "name": "hell",
+          "slug": "hell",
+          "language": "eng",
+          "games_count": 1017,
+          "image_background": "https://media.rawg.io/media/games/a2d/a2d2720071a92e46db10a095d7c68236.jpg"
+        },
+        {
+          "id": 2489,
+          "name": "dodge",
+          "slug": "dodge",
+          "language": "eng",
+          "games_count": 1934,
+          "image_background": "https://media.rawg.io/media/screenshots/86a/86a1ca92bee366c36e30aad87c0604ee.jpg"
+        },
+        {
+          "id": 49959,
+          "name": "2D Platformer",
+          "slug": "2d-platformer-3",
+          "language": "eng",
+          "games_count": 146,
+          "image_background": "https://media.rawg.io/media/screenshots/315/315567d8ec1a897c7b761db4cdba5a43.jpg"
+        }
+      ],
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/28c/28c4b2b8d8c190e8ba4133bef8f96f83.jpg"
+        },
+        {
+          "id": 2175775,
+          "image": "https://media.rawg.io/media/screenshots/ccd/ccd328e9103fcd6901f53f80db346e7b.jpg"
+        },
+        {
+          "id": 2379401,
+          "image": "https://media.rawg.io/media/screenshots/279/279321662e9bd4fcab84eec39fdc56d5.jpg"
+        },
+        {
+          "id": 2379402,
+          "image": "https://media.rawg.io/media/screenshots/a40/a40aab6121ee5457e159d19332ae2536.jpg"
+        },
+        {
+          "id": 2379403,
+          "image": "https://media.rawg.io/media/screenshots/918/918a087422583422236456811d9c1687.jpg"
+        },
+        {
+          "id": 2379404,
+          "image": "https://media.rawg.io/media/screenshots/ae3/ae364bea967f8a5c08aca19c94e80ea8.jpg"
+        },
+        {
+          "id": 2379405,
+          "image": "https://media.rawg.io/media/screenshots/550/550d35776b24a1e4f366d25aed897c71.jpg"
+        }
+      ],
+      "short_description": "Exit the Gungeon is an indie, action, adventure and platformer game developed by Dodge Roll, Devolver and Singlecore. It came out on 16-03-2020. Devolver Digital published the game. The game is rated as \"Recommended\" on RAWG. \nYou can play Exit the Gungeon on PC, iOS, Nintendo Switch and macOS. The game is sold via GOG, Steam, Nintendo eShop and App Store. \n\n"
+    }
+  ],
+  "updated": "2019-08-02T16:25:03",
+  "seo_text": "If you want to find games like D/Generation HD, we've got you covered. This is a list of games similar to D/Generation HD. If you are looking for something like that, you'll likely enjoy some of these games."
+}

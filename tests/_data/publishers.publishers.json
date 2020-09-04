@@ -1,0 +1,97 @@
+{
+  "count": 42554,
+  "next": "https://api.rawg.io/api/publishers?page=2&page_size=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 354,
+      "name": "Electronic Arts",
+      "slug": "electronic-arts",
+      "games_count": 1219,
+      "image_background": "https://media.rawg.io/media/games/d4c/d4cc887fb00426939d091557e2edf63a.jpg",
+      "games": [
+        {
+          "id": 4200,
+          "slug": "portal-2",
+          "name": "Portal 2",
+          "added": 11199
+        },
+        {
+          "id": 12020,
+          "slug": "left-4-dead-2",
+          "name": "Left 4 Dead 2",
+          "added": 9642
+        },
+        {
+          "id": 4252,
+          "slug": "mirrors-edge",
+          "name": "Mirror's Edge",
+          "added": 6473
+        },
+        {
+          "id": 4806,
+          "slug": "mass-effect-2",
+          "name": "Mass Effect 2",
+          "added": 5934
+        },
+        {
+          "id": 4570,
+          "slug": "dead-space",
+          "name": "Dead Space",
+          "added": 5759
+        },
+        {
+          "id": 4166,
+          "slug": "mass-effect",
+          "name": "Mass Effect",
+          "added": 5519
+        }
+      ]
+    },
+    {
+      "id": 20987,
+      "name": "Microsoft Studios",
+      "slug": "microsoft-studios",
+      "games_count": 462,
+      "image_background": "https://media.rawg.io/media/games/c89/c89ca70716080733d03724277df2c6c7.jpg",
+      "games": [
+        {
+          "id": 1030,
+          "slug": "limbo",
+          "name": "Limbo",
+          "added": 8719
+        },
+        {
+          "id": 7689,
+          "slug": "rise-of-the-tomb-raider",
+          "name": "Rise of the Tomb Raider",
+          "added": 6841
+        },
+        {
+          "id": 19487,
+          "slug": "alan-wake",
+          "name": "Alan Wake",
+          "added": 6255
+        },
+        {
+          "id": 3144,
+          "slug": "super-meat-boy",
+          "name": "Super Meat Boy",
+          "added": 6242
+        },
+        {
+          "id": 4166,
+          "slug": "mass-effect",
+          "name": "Mass Effect",
+          "added": 5519
+        },
+        {
+          "id": 5525,
+          "slug": "brutal-legend",
+          "name": "Brutal Legend",
+          "added": 5436
+        }
+      ]
+    }
+  ]
+}

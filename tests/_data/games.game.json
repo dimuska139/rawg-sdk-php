@@ -1,0 +1,526 @@
+{
+  "id": 4427,
+  "slug": "bioshock-2",
+  "name": "BioShock 2",
+  "name_original": "BioShock 2",
+  "description": "<p>The second game returns us to the city of Rapture, on the New Year’s Eve, but this time player takes control of Subject Delta, Big Daddy, that’s been separated from his little sister and has been forced to shoot himself 2 years before the events of the first game took place. And after his awakening 10 years later, players will help to save the last sane citizens of Rapture. As seen in the previous game, the player will have access to new weapons, unique to Big Daddies, power drill and a rivet gun, alongside an array of plasmids, Tonics, and guns. Now players will be able not only save Little Sisters from other Big Daddies, and then either harvest ADAM directly, or protect them while they collect ADAM for their new guardian. Bioshock introduces a new enemy type, Big Sisters, which are extremely agile and fast versions of Big Daddies. Newly added multiplayer brings several never seen formats to the series. Aside from expected Deathmatches, the game added story-driven mode Fall of Rapture.</p>",
+  "metacritic": 88,
+  "metacritic_platforms": [],
+  "released": "2010-02-09",
+  "tba": false,
+  "updated": "2020-07-28T18:04:47",
+  "background_image": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg",
+  "background_image_additional": "https://media.rawg.io/media/screenshots/296/296b946eb8438f48e1dd2f6753e78566.jpg",
+  "website": "http://www.bioshockgame.com",
+  "rating": 4.05,
+  "rating_top": 4,
+  "ratings": [
+    {
+      "id": 4,
+      "title": "recommended",
+      "count": 639,
+      "percent": 53.21
+    },
+    {
+      "id": 5,
+      "title": "exceptional",
+      "count": 369,
+      "percent": 30.72
+    },
+    {
+      "id": 3,
+      "title": "meh",
+      "count": 135,
+      "percent": 11.24
+    },
+    {
+      "id": 1,
+      "title": "skip",
+      "count": 58,
+      "percent": 4.83
+    }
+  ],
+  "reactions": {
+    "4": 1,
+    "9": 1,
+    "10": 1
+  },
+  "added": 6514,
+  "added_by_status": {
+    "yet": 440,
+    "owned": 4619,
+    "beaten": 1096,
+    "toplay": 101,
+    "dropped": 234,
+    "playing": 24
+  },
+  "playtime": 3,
+  "screenshots_count": 37,
+  "movies_count": 0,
+  "creators_count": 4,
+  "achievements_count": 381,
+  "parent_achievements_count": 100,
+  "reddit_url": "",
+  "reddit_name": "",
+  "reddit_description": "",
+  "reddit_logo": "",
+  "reddit_count": 0,
+  "twitch_count": 102,
+  "youtube_count": 1000000,
+  "reviews_text_count": 5,
+  "ratings_count": 1196,
+  "suggestions_count": 652,
+  "alternative_names": [],
+  "metacritic_url": "",
+  "parents_count": 0,
+  "additions_count": 3,
+  "game_series_count": 4,
+  "user_game": null,
+  "reviews_count": 1201,
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "parent_platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      }
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation",
+        "slug": "playstation"
+      }
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox",
+        "slug": "xbox"
+      }
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "Apple Macintosh",
+        "slug": "mac"
+      }
+    },
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo",
+        "slug": "nintendo"
+      }
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 18,
+        "name": "PlayStation 4",
+        "slug": "playstation4",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 5036,
+        "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+      },
+      "released_at": "2010-02-09",
+      "requirements": null
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 251794,
+        "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+      },
+      "released_at": "2010-02-09",
+      "requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows XP, Vista, Windows 7<br></li><li><strong>Processor:</strong> AMD Athlon 64 Processor 3800+ 2.4Ghz or better, Intel Pentium 4 530 3.0Ghz Processor or better<br></li><li><strong>Memory:</strong> 2GB<br></li><li><strong>Graphics:</strong> NVIDIA 7800GT 256MB graphics card or better, ATI Radeon X1900 256MB graphics card or better<br></li><li><strong>DirectX®:</strong> DirectX 9.0c<br></li><li><strong>Hard Drive:</strong> 11GB<br></li><li><strong>Sound:</strong> 100% DirectX 9.0C compliant sound card or onboard sound</li></ul>",
+        "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>Processor:</strong> AMD Athlon 64 X2 5200+ Dual Core 2.60Ghz, Intel Core 2 Duo E6420 Dual Core 2.13Ghz<br></li><li><strong>Memory:</strong> 3GB<br></li><li><strong>Graphics:</strong> NVIDIA 8800GT 512MB graphics card or better, ATI Radeon HD4830 512MB graphics card or better<br></li><li><strong>Other Requirements:</strong> Initial installation requires one-time internet connection; software installations required including Microsoft Visual C++2008 Runtime Libraries, Microsoft DirectX.</li></ul>"
+      }
+    },
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 3341,
+        "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+      },
+      "released_at": "2010-02-09",
+      "requirements": null
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "Xbox One",
+        "slug": "xbox-one",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 3742,
+        "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+      },
+      "released_at": "2010-02-09",
+      "requirements": null
+    },
+    {
+      "platform": {
+        "id": 16,
+        "name": "PlayStation 3",
+        "slug": "playstation3",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 3605,
+        "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+      },
+      "released_at": "2010-02-09",
+      "requirements": null
+    },
+    {
+      "platform": {
+        "id": 14,
+        "name": "Xbox 360",
+        "slug": "xbox360",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 2550,
+        "image_background": "https://media.rawg.io/media/games/1bb/1bb86c35ffa3eb0d299b01a7c65bf908.jpg"
+      },
+      "released_at": "2010-02-09",
+      "requirements": null
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "macOS",
+        "slug": "macos",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 57222,
+        "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+      },
+      "released_at": "2010-02-09",
+      "requirements": null
+    }
+  ],
+  "stores": [
+    {
+      "id": 440408,
+      "url": "https://www.microsoft.com/en-us/p/bioshock-2/bp8t903fzl2x?cid=msft_web_chart",
+      "store": {
+        "id": 2,
+        "name": "Xbox Store",
+        "slug": "xbox-store",
+        "domain": "microsoft.com",
+        "games_count": 3356,
+        "image_background": "https://media.rawg.io/media/games/d69/d69810315bd7e226ea2d21f9156af629.jpg"
+      }
+    },
+    {
+      "id": 79405,
+      "url": "https://apps.apple.com/app/bioshock-2/id469377135?mt=12&uo=4",
+      "store": {
+        "id": 4,
+        "name": "App Store",
+        "slug": "apple-appstore",
+        "domain": "apps.apple.com",
+        "games_count": 65298,
+        "image_background": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"
+      }
+    },
+    {
+      "id": 33604,
+      "url": "https://marketplace.xbox.com/en-us/product/bioshock-2/66acd000-77fe-1000-9115-d8025454082d",
+      "store": {
+        "id": 7,
+        "name": "Xbox 360 Store",
+        "slug": "xbox360",
+        "domain": "marketplace.xbox.com",
+        "games_count": 1765,
+        "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+      }
+    },
+    {
+      "id": 4755,
+      "url": "https://store.playstation.com/en-us/product/UP1001-NPUB30392_00-BIOSHOCK2PSN0001",
+      "store": {
+        "id": 3,
+        "name": "PlayStation Store",
+        "slug": "playstation-store",
+        "domain": "store.playstation.com",
+        "games_count": 6681,
+        "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+      }
+    },
+    {
+      "id": 19732,
+      "url": "http://store.steampowered.com/app/8850/",
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 42623,
+        "image_background": "https://media.rawg.io/media/games/c4b/c4b0cab189e73432de3a250d8cf1c84e.jpg"
+      }
+    }
+  ],
+  "developers": [
+    {
+      "id": 383,
+      "name": "2K",
+      "slug": "2k",
+      "games_count": 60,
+      "image_background": "https://media.rawg.io/media/games/fdb/fdb65025dee2f0edb8c2b587afaff853.jpg"
+    },
+    {
+      "id": 4149,
+      "name": "2K Australia",
+      "slug": "2k-australia",
+      "games_count": 11,
+      "image_background": "https://media.rawg.io/media/games/7c4/7c448374df84b607f67ce9182a3a3ca7.jpg"
+    },
+    {
+      "id": 5113,
+      "name": "2K China",
+      "slug": "2k-china",
+      "games_count": 8,
+      "image_background": "https://media.rawg.io/media/games/d43/d4357402bfcf2cf06650aab2e3bbf2a3.jpg"
+    },
+    {
+      "id": 5114,
+      "name": "2K Marin",
+      "slug": "2k-marin",
+      "games_count": 8,
+      "image_background": "https://media.rawg.io/media/games/5cc/5cc765484c6df567ed9207c1781b88cb.jpg"
+    },
+    {
+      "id": 1072,
+      "name": "Digital Extremes",
+      "slug": "digital-extremes",
+      "games_count": 21,
+      "image_background": "https://media.rawg.io/media/games/657/657574cd437df9102f511b3be095b0ea.jpg"
+    },
+    {
+      "id": 18893,
+      "name": "Feral Interactive",
+      "slug": "feral-interactive",
+      "games_count": 107,
+      "image_background": "https://media.rawg.io/media/games/a12/a12f806432cb385bc286f0935c49cd14.jpg"
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 94970,
+      "image_background": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Shooter",
+      "slug": "shooter",
+      "games_count": 29057,
+      "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 40836,
+      "name": "Full controller support",
+      "slug": "full-controller-support",
+      "language": "eng",
+      "games_count": 8823,
+      "image_background": "https://media.rawg.io/media/games/b49/b4912b5dbfc7ed8927b65f05b8507f6c.jpg"
+    },
+    {
+      "id": 97,
+      "name": "Action RPG",
+      "slug": "action-rpg",
+      "language": "eng",
+      "games_count": 2586,
+      "image_background": "https://media.rawg.io/media/games/c06/c06d88c35785c8003147cb53c84af033.jpg"
+    },
+    {
+      "id": 40847,
+      "name": "Steam Achievements",
+      "slug": "steam-achievements",
+      "language": "eng",
+      "games_count": 18691,
+      "image_background": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 9073,
+      "image_background": "https://media.rawg.io/media/games/91c/91c4f377c1e09755b60a0102c5252843.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Dark",
+      "slug": "dark",
+      "language": "eng",
+      "games_count": 5405,
+      "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+    },
+    {
+      "id": 119,
+      "name": "Dystopian",
+      "slug": "dystopian",
+      "language": "eng",
+      "games_count": 729,
+      "image_background": "https://media.rawg.io/media/screenshots/67e/67e5be6ad7a555248f50bd367e9a071c.jpg"
+    },
+    {
+      "id": 8,
+      "name": "First-Person",
+      "slug": "first-person",
+      "language": "eng",
+      "games_count": 8234,
+      "image_background": "https://media.rawg.io/media/games/198/1988a337305e008b41d7f536ce9b73f6.jpg"
+    },
+    {
+      "id": 30,
+      "name": "FPS",
+      "slug": "fps",
+      "language": "eng",
+      "games_count": 5477,
+      "image_background": "https://media.rawg.io/media/games/c24/c24ec439abf4a2e92f3429dfa83f7f94.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Great Soundtrack",
+      "slug": "great-soundtrack",
+      "language": "eng",
+      "games_count": 3002,
+      "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Horror",
+      "slug": "horror",
+      "language": "eng",
+      "games_count": 15044,
+      "image_background": "https://media.rawg.io/media/games/4ba/4ba9b4b68ffcc7019b112174883ba4d6.jpg"
+    },
+    {
+      "id": 305,
+      "name": "Linear",
+      "slug": "linear",
+      "language": "eng",
+      "games_count": 176,
+      "image_background": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Multiplayer",
+      "slug": "multiplayer",
+      "language": "eng",
+      "games_count": 21140,
+      "image_background": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"
+    },
+    {
+      "id": 281,
+      "name": "Philisophical",
+      "slug": "philisophical",
+      "language": "eng",
+      "games_count": 38,
+      "image_background": "https://media.rawg.io/media/screenshots/3a8/3a8e1d0414ab6cbb36eebabf889e6391.jpg"
+    },
+    {
+      "id": 24,
+      "name": "RPG",
+      "slug": "rpg",
+      "language": "eng",
+      "games_count": 9829,
+      "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Sci-fi",
+      "slug": "sci-fi",
+      "language": "eng",
+      "games_count": 7475,
+      "image_background": "https://media.rawg.io/media/games/f87/f87457e8347484033cb34cde6101d08d.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 83033,
+      "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+    },
+    {
+      "id": 154,
+      "name": "Steampunk",
+      "slug": "steampunk",
+      "language": "eng",
+      "games_count": 612,
+      "image_background": "https://media.rawg.io/media/games/0b5/0b5410b1e4b3fb72696dcefbf4f1cf40.jpg"
+    },
+    {
+      "id": 118,
+      "name": "Story Rich",
+      "slug": "story-rich",
+      "language": "eng",
+      "games_count": 7025,
+      "image_background": "https://media.rawg.io/media/games/16b/16b1b7b36e2042d1128d5a3e852b3b2f.jpg"
+    },
+    {
+      "id": 250,
+      "name": "Underwater",
+      "slug": "underwater",
+      "language": "eng",
+      "games_count": 935,
+      "image_background": "https://media.rawg.io/media/screenshots/5af/5af1974e330a1ba6f4319400dde88129.jpg"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 358,
+      "name": "2K Games",
+      "slug": "2k-games",
+      "games_count": 189,
+      "image_background": "https://media.rawg.io/media/screenshots/740/7400097027269944f4fd3ee597cb93d8.jpg"
+    },
+    {
+      "id": 19651,
+      "name": "Feral Interactive",
+      "slug": "feral-interactive",
+      "games_count": 108,
+      "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+    }
+  ],
+  "esrb_rating": null,
+  "clip": {
+    "clip": "https://media.rawg.io/media/stories-640/37c/37c80abc0c63ca998fb255acf5740104.mp4",
+    "clips": {
+      "320": "https://media.rawg.io/media/stories-320/bff/bffa3b54314a2f9588901852cdeb29ee.mp4",
+      "640": "https://media.rawg.io/media/stories-640/37c/37c80abc0c63ca998fb255acf5740104.mp4",
+      "full": "https://media.rawg.io/media/stories/73a/73a4bc13e1b6342d398e6a563f86084a.mp4"
+    },
+    "video": "FZh6g-71OAI",
+    "preview": "https://media.rawg.io/media/stories-previews/efa/efa665228a8da9098b17fbcf3b9cc4ff.jpg"
+  },
+  "description_raw": "The second game returns us to the city of Rapture, on the New Year’s Eve, but this time player takes control of Subject Delta, Big Daddy, that’s been separated from his little sister and has been forced to shoot himself 2 years before the events of the first game took place. And after his awakening 10 years later, players will help to save the last sane citizens of Rapture. As seen in the previous game, the player will have access to new weapons, unique to Big Daddies, power drill and a rivet gun, alongside an array of plasmids, Tonics, and guns. Now players will be able not only save Little Sisters from other Big Daddies, and then either harvest ADAM directly, or protect them while they collect ADAM for their new guardian. Bioshock introduces a new enemy type, Big Sisters, which are extremely agile and fast versions of Big Daddies. Newly added multiplayer brings several never seen formats to the series. Aside from expected Deathmatches, the game added story-driven mode Fall of Rapture."
+}

@@ -1,0 +1,658 @@
+{
+  "count": 3,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 11142,
+      "slug": "bioshock-2-remastered",
+      "name": "BioShock 2 Remastered",
+      "released": "2016-09-15",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/7c4/7c448374df84b607f67ce9182a3a3ca7.jpg",
+      "rating": 4.02,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 286,
+          "percent": 51.07
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 181,
+          "percent": 32.32
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 54,
+          "percent": 9.64
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 39,
+          "percent": 6.96
+        }
+      ],
+      "ratings_count": 560,
+      "reviews_text_count": 0,
+      "added": 4881,
+      "added_by_status": {
+        "yet": 485,
+        "owned": 3801,
+        "beaten": 409,
+        "toplay": 69,
+        "dropped": 98,
+        "playing": 19
+      },
+      "metacritic": null,
+      "playtime": 4,
+      "suggestions_count": 457,
+      "user_game": null,
+      "reviews_count": 560,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 251794,
+            "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+          },
+          "released_at": "2016-09-15",
+          "requirements_en": {
+            "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 7 Service Pack 1 64-bit. Platform Update for Windows 7 SP1 and Windows Server 2008 R2 SP1<br></li><li><strong>Processor:</strong> Intel E6750 Core 2 Duo 2.66 GHz / AMD Athlon X2 2.7 GHZ<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> 2GB AMD Radeon HD 7770 / 2GB NVIDIA GeForce GTX 670<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 25 GB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible Sound Device<br></li><li><strong>Additional Notes:</strong> Software installations required including DirectX and Microsoft Visual C++ 2010 &amp; 2012 Redistributable Package. <i>Some system components such as mobile chipsets, integrated, and AGP graphics cards may be incompatible. Unlisted specifications may not be supported by publisher. </i></li></ul>",
+            "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 7 Service Pack 1 64-bit. Platform Update for Windows 7 SP1 and Windows Server 2008 R2 SP1<br></li><li><strong>Processor:</strong> 3GHz Quad-Core<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> 2GB ATI Radeon HD 7970, 2GB NVIDIA GeForce GTX 770 or better<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 25 GB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible Sound Device</li></ul>"
+          },
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "macOS",
+            "slug": "macos",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 57222,
+            "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+          },
+          "released_at": "2016-09-15",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 1,
+            "name": "Xbox One",
+            "slug": "xbox-one",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 3742,
+            "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+          },
+          "released_at": "2016-09-15",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 18,
+            "name": "PlayStation 4",
+            "slug": "playstation4",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 5036,
+            "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+          },
+          "released_at": "2020-05-29",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        },
+        {
+          "platform": {
+            "id": 5,
+            "name": "Apple Macintosh",
+            "slug": "mac"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 94970,
+          "image_background": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg"
+        },
+        {
+          "id": 5,
+          "name": "RPG",
+          "slug": "role-playing-games-rpg",
+          "games_count": 29996,
+          "image_background": "https://media.rawg.io/media/games/3cf/3cff89996570cf29a10eb9cd967dcf73.jpg"
+        }
+      ],
+      "stores": [
+        {
+          "id": 440394,
+          "store": {
+            "id": 3,
+            "name": "PlayStation Store",
+            "slug": "playstation-store",
+            "domain": "store.playstation.com",
+            "games_count": 6681,
+            "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+          },
+          "url_en": "https://store.playstation.com/en-us/product/UP1001-CUSA13050_00-BIO2REMASTERED00",
+          "url_ru": ""
+        },
+        {
+          "id": 276208,
+          "store": {
+            "id": 5,
+            "name": "GOG",
+            "slug": "gog",
+            "domain": "gog.com",
+            "games_count": 2703,
+            "image_background": "https://media.rawg.io/media/games/7c4/7c448374df84b607f67ce9182a3a3ca7.jpg"
+          },
+          "url_en": "http://www.gog.com/game/bioshock_2_remastered",
+          "url_ru": null
+        },
+        {
+          "id": 12220,
+          "store": {
+            "id": 1,
+            "name": "Steam",
+            "slug": "steam",
+            "domain": "store.steampowered.com",
+            "games_count": 42623,
+            "image_background": "https://media.rawg.io/media/games/c4b/c4b0cab189e73432de3a250d8cf1c84e.jpg"
+          },
+          "url_en": "http://store.steampowered.com/app/409720/",
+          "url_ru": null
+        }
+      ],
+      "clip": {
+        "clip": "https://media.rawg.io/media/stories-640/56b/56b913ca5e4953ae91b700818c97e552.mp4",
+        "clips": {
+          "320": "https://media.rawg.io/media/stories-320/6eb/6ebb353814c1e6e209967ce4ded6b48a.mp4",
+          "640": "https://media.rawg.io/media/stories-640/56b/56b913ca5e4953ae91b700818c97e552.mp4",
+          "full": "https://media.rawg.io/media/stories/4dc/4dc5c605a6ff3b0c678ab1a793a7bcaf.mp4"
+        },
+        "video": "-lvjxlNFJN0",
+        "preview": "https://media.rawg.io/media/stories-previews/c5b/c5be08e4ca106ed5e729eba57f93e488.jpg"
+      },
+      "tags": [
+        {
+          "id": 40836,
+          "name": "Full controller support",
+          "slug": "full-controller-support",
+          "language": "eng",
+          "games_count": 8823,
+          "image_background": "https://media.rawg.io/media/games/b49/b4912b5dbfc7ed8927b65f05b8507f6c.jpg"
+        },
+        {
+          "id": 40847,
+          "name": "Steam Achievements",
+          "slug": "steam-achievements",
+          "language": "eng",
+          "games_count": 18691,
+          "image_background": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"
+        },
+        {
+          "id": 40849,
+          "name": "Steam Cloud",
+          "slug": "steam-cloud",
+          "language": "eng",
+          "games_count": 8804,
+          "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+        },
+        {
+          "id": 13,
+          "name": "Atmospheric",
+          "slug": "atmospheric",
+          "language": "eng",
+          "games_count": 9073,
+          "image_background": "https://media.rawg.io/media/games/91c/91c4f377c1e09755b60a0102c5252843.jpg"
+        },
+        {
+          "id": 119,
+          "name": "Dystopian",
+          "slug": "dystopian",
+          "language": "eng",
+          "games_count": 729,
+          "image_background": "https://media.rawg.io/media/screenshots/67e/67e5be6ad7a555248f50bd367e9a071c.jpg"
+        },
+        {
+          "id": 8,
+          "name": "First-Person",
+          "slug": "first-person",
+          "language": "eng",
+          "games_count": 8234,
+          "image_background": "https://media.rawg.io/media/games/198/1988a337305e008b41d7f536ce9b73f6.jpg"
+        },
+        {
+          "id": 30,
+          "name": "FPS",
+          "slug": "fps",
+          "language": "eng",
+          "games_count": 5477,
+          "image_background": "https://media.rawg.io/media/games/c24/c24ec439abf4a2e92f3429dfa83f7f94.jpg"
+        },
+        {
+          "id": 16,
+          "name": "Horror",
+          "slug": "horror",
+          "language": "eng",
+          "games_count": 15044,
+          "image_background": "https://media.rawg.io/media/games/4ba/4ba9b4b68ffcc7019b112174883ba4d6.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Multiplayer",
+          "slug": "multiplayer",
+          "language": "eng",
+          "games_count": 21140,
+          "image_background": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"
+        },
+        {
+          "id": 24,
+          "name": "RPG",
+          "slug": "rpg",
+          "language": "eng",
+          "games_count": 9829,
+          "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+        },
+        {
+          "id": 32,
+          "name": "Sci-fi",
+          "slug": "sci-fi",
+          "language": "eng",
+          "games_count": 7475,
+          "image_background": "https://media.rawg.io/media/games/f87/f87457e8347484033cb34cde6101d08d.jpg"
+        },
+        {
+          "id": 31,
+          "name": "Singleplayer",
+          "slug": "singleplayer",
+          "language": "eng",
+          "games_count": 83033,
+          "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+        },
+        {
+          "id": 154,
+          "name": "Steampunk",
+          "slug": "steampunk",
+          "language": "eng",
+          "games_count": 612,
+          "image_background": "https://media.rawg.io/media/games/0b5/0b5410b1e4b3fb72696dcefbf4f1cf40.jpg"
+        },
+        {
+          "id": 118,
+          "name": "Story Rich",
+          "slug": "story-rich",
+          "language": "eng",
+          "games_count": 7025,
+          "image_background": "https://media.rawg.io/media/games/16b/16b1b7b36e2042d1128d5a3e852b3b2f.jpg"
+        }
+      ],
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/games/7c4/7c448374df84b607f67ce9182a3a3ca7.jpg"
+        },
+        {
+          "id": 89556,
+          "image": "https://media.rawg.io/media/screenshots/f8f/f8f97169e49ff503f182cb480c75d377.jpg"
+        },
+        {
+          "id": 89557,
+          "image": "https://media.rawg.io/media/screenshots/be7/be7ba98fad14386322335d9d87f4cf05.jpg"
+        },
+        {
+          "id": 89558,
+          "image": "https://media.rawg.io/media/screenshots/d0e/d0e70feaab57195e8286f3501e95fc5e.jpg"
+        },
+        {
+          "id": 89559,
+          "image": "https://media.rawg.io/media/screenshots/f6e/f6e3977b58906b54d43232262521e7c6.jpg"
+        },
+        {
+          "id": 89560,
+          "image": "https://media.rawg.io/media/screenshots/932/932a57c6958406a255b36d90d7eb62cd.jpg"
+        },
+        {
+          "id": 89561,
+          "image": "https://media.rawg.io/media/screenshots/dd5/dd5c9b494d356ecc6b06115e51bf95c4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41961,
+      "slug": "bioshock-2-minervas-den",
+      "name": "BioShock 2: Minerva's Den",
+      "released": "2010-08-23",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/24b/24bf1868b81ba0f70e99020fcda24679.jpg",
+      "rating": 4,
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 16,
+          "percent": 61.54
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 6,
+          "percent": 23.08
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 3,
+          "percent": 11.54
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 3.85
+        }
+      ],
+      "ratings_count": 25,
+      "reviews_text_count": 0,
+      "added": 44,
+      "added_by_status": {
+        "yet": 4,
+        "owned": 7,
+        "beaten": 27,
+        "toplay": 5,
+        "dropped": 1
+      },
+      "metacritic": 82,
+      "playtime": 0,
+      "suggestions_count": 391,
+      "user_game": null,
+      "reviews_count": 26,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 14,
+            "name": "Xbox 360",
+            "slug": "xbox360",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 2550,
+            "image_background": "https://media.rawg.io/media/games/1bb/1bb86c35ffa3eb0d299b01a7c65bf908.jpg"
+          },
+          "released_at": "2010-08-23",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3",
+            "slug": "playstation3",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 3605,
+            "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+          },
+          "released_at": "2010-08-23",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 251794,
+            "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+          },
+          "released_at": "2010-08-23",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        },
+        {
+          "platform": {
+            "id": 3,
+            "name": "Xbox",
+            "slug": "xbox"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 94970,
+          "image_background": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Shooter",
+          "slug": "shooter",
+          "games_count": 29057,
+          "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/24b/24bf1868b81ba0f70e99020fcda24679.jpg"
+        },
+        {
+          "id": 605942,
+          "image": "https://media.rawg.io/media/screenshots/38b/38b8371e81cf152117c5a28d1f9eead5.jpg"
+        },
+        {
+          "id": 605943,
+          "image": "https://media.rawg.io/media/screenshots/41f/41f899a81d708f679641d655d9a1cef1.jpg"
+        },
+        {
+          "id": 605944,
+          "image": "https://media.rawg.io/media/screenshots/4f7/4f718a20a01fe632c66ee1cc75f51124.jpg"
+        },
+        {
+          "id": 605945,
+          "image": "https://media.rawg.io/media/screenshots/9f8/9f8862d97cdc864d85edf991b7fb76b5.jpg"
+        },
+        {
+          "id": 605946,
+          "image": "https://media.rawg.io/media/screenshots/362/362746bfff9b1fe5355b07865324ef77.jpg"
+        },
+        {
+          "id": 605947,
+          "image": "https://media.rawg.io/media/screenshots/fe6/fe63d38a190ecb7bcf28b2fe832560f6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41962,
+      "slug": "bioshock-2-sinclair-solutions-test-pack",
+      "name": "BioShock 2: Sinclair Solutions Test Pack",
+      "released": "2010-03-11",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/135/1355a72e90f3d561c9ad94b8a09a4849.jpg",
+      "rating": 0,
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 100
+        }
+      ],
+      "ratings_count": 1,
+      "reviews_text_count": 0,
+      "added": 4,
+      "added_by_status": {
+        "beaten": 2,
+        "toplay": 1,
+        "dropped": 1
+      },
+      "metacritic": null,
+      "playtime": 0,
+      "suggestions_count": 220,
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f",
+      "platforms": [
+        {
+          "platform": {
+            "id": 4,
+            "name": "PC",
+            "slug": "pc",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 251794,
+            "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+          },
+          "released_at": "2010-03-11",
+          "requirements_en": null,
+          "requirements_ru": null
+        },
+        {
+          "platform": {
+            "id": 16,
+            "name": "PlayStation 3",
+            "slug": "playstation3",
+            "image": null,
+            "year_end": null,
+            "year_start": null,
+            "games_count": 3605,
+            "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+          },
+          "released_at": "2010-03-11",
+          "requirements_en": null,
+          "requirements_ru": null
+        }
+      ],
+      "parent_platforms": [
+        {
+          "platform": {
+            "id": 1,
+            "name": "PC",
+            "slug": "pc"
+          }
+        },
+        {
+          "platform": {
+            "id": 2,
+            "name": "PlayStation",
+            "slug": "playstation"
+          }
+        }
+      ],
+      "genres": [
+        {
+          "id": 4,
+          "name": "Action",
+          "slug": "action",
+          "games_count": 94970,
+          "image_background": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Shooter",
+          "slug": "shooter",
+          "games_count": 29057,
+          "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+        }
+      ],
+      "stores": [],
+      "clip": null,
+      "tags": [],
+      "short_screenshots": [
+        {
+          "id": -1,
+          "image": "https://media.rawg.io/media/screenshots/135/1355a72e90f3d561c9ad94b8a09a4849.jpg"
+        },
+        {
+          "id": 605948,
+          "image": "https://media.rawg.io/media/screenshots/c08/c082f88d24a9f759146c4c26a63aa9e9.jpg"
+        },
+        {
+          "id": 605949,
+          "image": "https://media.rawg.io/media/screenshots/d9d/d9d42cc3d9a15e63b5b594dcfac481bc.jpg"
+        },
+        {
+          "id": 605950,
+          "image": "https://media.rawg.io/media/screenshots/135/1355a72e90f3d561c9ad94b8a09a4849.jpg"
+        }
+      ]
+    }
+  ]
+}

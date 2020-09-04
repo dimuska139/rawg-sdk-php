@@ -1,0 +1,37 @@
+{
+  "count": 5,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 440408,
+      "game_id": 4427,
+      "store_id": 2,
+      "url": "https://www.microsoft.com/en-us/p/bioshock-2/bp8t903fzl2x?cid=msft_web_chart"
+    },
+    {
+      "id": 79405,
+      "game_id": 4427,
+      "store_id": 4,
+      "url": "https://apps.apple.com/us/app/bioshock-2/id469377135?mt=12&uo=4"
+    },
+    {
+      "id": 33604,
+      "game_id": 4427,
+      "store_id": 7,
+      "url": "https://marketplace.xbox.com/en-US/Product/BioShock-2/66acd000-77fe-1000-9115-d8025454082d"
+    },
+    {
+      "id": 4755,
+      "game_id": 4427,
+      "store_id": 3,
+      "url": "https://store.playstation.com/en-us/product/UP1001-NPUB30392_00-BIOSHOCK2PSN0001"
+    },
+    {
+      "id": 19732,
+      "game_id": 4427,
+      "store_id": 1,
+      "url": "http://store.steampowered.com/app/8850/"
+    }
+  ]
+}
