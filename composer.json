@@ -33,6 +33,6 @@
         "codeception/module-asserts": "^1.0.0"
     },
     "scripts": {
-        "test": "vendor/bin/codecept run unit --coverage-text --no-colors"
+        "test": "vendor/bin/codecept run unit --coverage --coverage-xml --coverage-html --no-colors"
     }
 }

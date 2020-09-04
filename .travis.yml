@@ -6,24 +6,13 @@ os:
 php:
   - 7.4
 
-dist: trusty
-
 sudo: false
 
 install:
   - composer install --no-interaction
 
-matrix:
-  fast_finish: true
-jobs:
-  include:
-    - stage: codecoverage
-      if: type IN (pull_request) OR branch in (master)
-      php: 7.4
-      script: ./vendor/bin/codecept run unit -f --steps -v -d --coverage-xml; bash <(curl -s https://codecov.io/bash) -f tests/_output/coverage.xml;
-
 script:
-  - ./vendor/bin/codecept run -f unit
+  - composer test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
