@@ -4,7 +4,7 @@
 [![codecov](https://codecov.io/gh/dimuska139/rawg-sdk-php/branch/master/graph/badge.svg)](https://codecov.io/gh/dimuska139/rawg-sdk-php)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/dimuska139/go-email-normalizer/blob/master/LICENSE)
 
-This is RAWG PHP SDK. This library contains methods for interacting with RAWG API.
+This is unofficial RAWG PHP SDK. This library contains methods for interacting with [RAWG API](https://rawg.io/).
 
 ## Installation
 
@@ -38,7 +38,7 @@ $gamesFilter = (new GamesFilter())
 print_r($client->games()->getGames($gamesFilter)->getData());
 ```
 
-The tests should be considered a part of the documentation.
+The tests should be considered a part of the documentation. Also you can read [official docs](https://rawg.io/apidocs).
 
 ## License
 
