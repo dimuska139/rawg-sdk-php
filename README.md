@@ -40,6 +40,10 @@ print_r($client->games()->getGames($gamesFilter)->getData());
 
 The tests should be considered a part of the documentation. Also you can read [official docs](https://rawg.io/apidocs).
 
+## API limitations
+
+Only 5 requests per second allowed from one IP.
+
 ## License
 
 RAWG PHP SDK is released under the
