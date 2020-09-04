@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.org/dimuska139/rawg-sdk-php.svg?branch=master)](https://travis-ci.org/dimuska139/rawg-sdk-php)
 [![codecov](https://codecov.io/gh/dimuska139/rawg-sdk-php/branch/master/graph/badge.svg)](https://codecov.io/gh/dimuska139/rawg-sdk-php)
-[![Go Report Card](https://goreportcard.com/badge/github.com/dimuska139/rawg-sdk-php)](https://goreportcard.com/report/github.com/dimuska139/rawg-sdk-php)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/dimuska139/go-email-normalizer/blob/master/LICENSE)
 
 This is RAWG PHP SDK. This library contains methods for interacting with RAWG API.
