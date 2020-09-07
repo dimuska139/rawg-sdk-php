@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "guzzlehttp/guzzle": "^7.0",
+        "guzzlehttp/guzzle": "^6.5",
         "ext-json": "*",
         "lukasoppermann/http-status": "^2.0"
     },
