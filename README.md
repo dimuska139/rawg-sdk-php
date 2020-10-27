@@ -20,7 +20,7 @@ use Rawg\DateRange;
 use Rawg\Filters\GamesFilter;
 use Rawg\Filters\PaginationFilter;
 
-$cfg = new Config('YourAppName', 'en'); // 'YourAppName' will be set as User-Agent header
+$cfg = new Config('api-key', 'en');
 $client = new ApiClient($cfg);
 
 $additionsFilter = (new PaginationFilter())->setPage(1)->setPageSize(5);

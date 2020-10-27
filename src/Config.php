@@ -20,16 +20,16 @@ class Config
     /**
      * @var string
      */
-    protected $appName;
+    protected $apiKey;
 
     /**
      * Config constructor.
-     * @param string $appName
+     * @param string $apiKey
      * @param string|null $language
      */
-    public function __construct(string $appName, string $language = null)
+    public function __construct(string $apiKey, string $language = null)
     {
-        $this->appName = $appName;
+        $this->apiKey = $apiKey;
         if ($language) {
             $this->language = $language;
         }
@@ -46,9 +46,9 @@ class Config
     /**
      * @return string
      */
-    public function getAppName(): string
+    public function getApiKey(): string
     {
-        return $this->appName;
+        return $this->apiKey;
     }
 
     /**

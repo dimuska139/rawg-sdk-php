@@ -21,37 +21,10 @@ class ResourceTest extends Unit
      */
     protected $tester;
 
-    public function testUserAgent()
-    {
-        $appName = 'FakeApp';
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], '')
-        ]);
-        $handler = HandlerStack::create($mock);
-
-        $history = [];
-        $historyMiddleware = Middleware::history($history);
-        $handler->push($historyMiddleware);
-
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config($appName, 'en');
-        $dummyResource = new DummyResource($cfg, $client);
-        $dummyResource->getFakeData(new OrderingFilter());
-
-        /**
-         * @var Request $historyRequest
-         */
-        $historyRequest = $history[0]['request'];
-        $uaHeader = $historyRequest->getHeader('User-Agent');
-        $this->assertEquals(1, count($uaHeader));
-        $this->assertEquals($appName, $uaHeader[0]);
-    }
-
     public function testLanguage()
     {
         $language = 'ru';
+        $apiKey = 'FakeApp';
         $mock = new MockHandler([
             new Response(Status::HTTP_OK, [], '')
         ]);
@@ -64,7 +37,7 @@ class ResourceTest extends Unit
         $client = new Client([
             'handler' => $handler
         ]);
-        $cfg = new Config('FakeApp', $language);
+        $cfg = new Config($apiKey, $language);
         $dummyResource = new DummyResource($cfg, $client);
         $dummyResource->getFakeData(new OrderingFilter());
 
@@ -72,12 +45,12 @@ class ResourceTest extends Unit
          * @var Request $historyRequest
          */
         $historyRequest = $history[0]['request'];
-        $this->assertEquals('page=1&page_size=20&lang=ru', $historyRequest->getUri()->getQuery());
+        $this->assertEquals("page=1&page_size=20&key=$apiKey&lang=$language", $historyRequest->getUri()->getQuery());
     }
 
     public function testException()
     {
-        $appName = 'FakeApp';
+        $apiKey = 'key';
         $mock = new MockHandler([
             new Response(Status::HTTP_FORBIDDEN, [], '')
         ]);
@@ -90,7 +63,7 @@ class ResourceTest extends Unit
         $client = new Client([
             'handler' => $handler
         ]);
-        $cfg = new Config($appName, 'en');
+        $cfg = new Config($apiKey, 'en');
         $dummyResource = new DummyResource($cfg, $client);
 
         $this->tester->expectThrowable(ApiException::class, function() use ($dummyResource) {
@@ -100,7 +73,8 @@ class ResourceTest extends Unit
 
     public function testQueryParams()
     {
-        $appName = 'FakeApp';
+        $apiKey = 'key';
+        $lang = 'en';
         $mock = new MockHandler([
             new Response(Status::HTTP_OK, [], ''),
             new Response(Status::HTTP_OK, [], '')
@@ -114,12 +88,12 @@ class ResourceTest extends Unit
         $client = new Client([
             'handler' => $handler
         ]);
-        $cfg = new Config($appName, 'en');
+        $cfg = new Config($apiKey, $lang);
         $dummyResource = new DummyResource($cfg, $client);
         $dummyResource->getFakeData(new OrderingFilter());
         $dummyResource->getFakeData((new OrderingFilter())->setOrdering('name'));
 
-        $this->assertEquals('page=1&page_size=20&lang=en', $history[0]['request']->getUri()->getQuery());
-        $this->assertEquals('page=1&page_size=20&ordering=name&lang=en', $history[1]['request']->getUri()->getQuery());
+        $this->assertEquals("page=1&page_size=20&key=$apiKey&lang=$lang", $history[0]['request']->getUri()->getQuery());
+        $this->assertEquals("page=1&page_size=20&ordering=name&key=$apiKey&lang=$lang", $history[1]['request']->getUri()->getQuery());
     }
 }

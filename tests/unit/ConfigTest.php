@@ -13,17 +13,17 @@ class ConfigTest extends Unit
     public function testInit()
     {
         $lang = 'ru';
-        $appName = 'MyApp';
-        $cfg = new Config($appName, $lang);
+        $apiKey = "key";
+        $cfg = new Config($apiKey, $lang);
         $this->assertEquals($lang, $cfg->getLanguage());
-        $this->assertEquals($appName, $cfg->getAppName());
+        $this->assertEquals($apiKey, $cfg->getApiKey());
         $this->assertEquals('https://api.rawg.io/api', $cfg->getBaseUrl());
     }
 
     public function testDefaultLang()
     {
-        $appName = 'MyApp';
-        $cfg = new Config($appName);
+        $apiKey = "key";
+        $cfg = new Config($apiKey);
         $this->assertEquals('en', $cfg->getLanguage());
     }
 }

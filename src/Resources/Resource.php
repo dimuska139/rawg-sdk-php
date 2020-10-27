@@ -41,12 +41,12 @@ abstract class Resource
     protected function get(string $path, array $queryParams = [], array $headers = []): Response
     {
         $fullUrl = $this->config->getBaseUrl() . $path;
-        $headers['User-Agent'] = $this->config->getAppName();
 
         $queryParams = array_filter($queryParams, function($item) {
             return !is_null($item);
         });
 
+        $queryParams['key'] = $this->config->getApiKey();
         $queryParams['lang'] = $this->config->getLanguage();
         try {
             $response = $this->httpClient->request("GET", $fullUrl, [
