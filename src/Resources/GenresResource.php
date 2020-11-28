@@ -2,7 +2,7 @@
 
 namespace Rawg\Resources;
 
-use Rawg\Exceptions\ApiException;
+use Rawg\ApiException;
 use Rawg\Filters\OrderingFilter;
 use Rawg\Response;
 
