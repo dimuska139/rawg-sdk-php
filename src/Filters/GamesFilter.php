@@ -3,6 +3,7 @@
 namespace Rawg\Filters;
 
 use DatePeriod;
+use DateTime;
 use Rawg\DateRange;
 
 class GamesFilter extends Filter
@@ -60,6 +61,11 @@ class GamesFilter extends Filter
     /**
      * @var string | null
      */
+    protected $updated = null;
+
+    /**
+     * @var string | null
+     */
     protected $tags = null;
 
     /**
@@ -71,6 +77,11 @@ class GamesFilter extends Filter
      * @var string | null
      */
     protected $dates = null;
+
+    /**
+     * @var string | null
+     */
+    protected $metacritic = null;
 
     /**
      * @var int | null
@@ -96,6 +107,16 @@ class GamesFilter extends Filter
      * @var boolean | null
      */
     protected $exclude_game_series = null;
+
+    /**
+     * @var boolean | null
+     */
+    protected $search_precise = null;
+
+    /**
+     * @var boolean | null
+     */
+    protected $search_exact = null;
 
     /**
      * @param string|null $search
@@ -188,6 +209,24 @@ class GamesFilter extends Filter
     }
 
     /**
+     * @return $this
+     */
+    public function setPrecise(): GamesFilter
+    {
+        $this->search_precise = true;
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function setExact(): GamesFilter
+    {
+        $this->search_exact = true;
+        return $this;
+    }
+
+    /**
      * @param DateRange[] $ranges
      * @return GamesFilter
      */
@@ -199,6 +238,29 @@ class GamesFilter extends Filter
              */
             return $value->getFrom()->format('Y-m-d') . ',' . $value->getTo()->format('Y-m-d');
         }, $ranges));
+        return $this;
+    }
+
+    /**
+     * @param DateTime[] $dates
+     * @return GamesFilter
+     */
+    public function setUpdated(array $dates): GamesFilter
+    {
+        $this->updated = implode(',', array_map(function ($value) {
+            return $value->format('Y-m-d');
+        }, $dates));
+        return $this;
+    }
+
+    /**
+     * @param int $from
+     * @param int $to
+     * @return GamesFilter
+     */
+    public function setMetacritic(int $from, int $to): GamesFilter
+    {
+        $this->metacritic = $from . ',' . $to;
         return $this;
     }
 

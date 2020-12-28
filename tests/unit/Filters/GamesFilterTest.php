@@ -34,6 +34,10 @@ class GamesFilterTest extends Unit
             'exclude_additions' => true,
             'exclude_parents' => false,
             'exclude_game_series' => true,
+            'updated' => '2020-12-01,2020-12-31',
+            'metacritic' => '80,100',
+            'search_precise' => true,
+            'search_exact' => true,
         ];
 
         $filter = new GamesFilter();
@@ -59,6 +63,13 @@ class GamesFilterTest extends Unit
         $this->assertInstanceOf(GamesFilter::class, $filter->setExcludeAdditions($params['exclude_additions']));
         $this->assertInstanceOf(GamesFilter::class, $filter->setExcludeParents($params['exclude_parents']));
         $this->assertInstanceOf(GamesFilter::class, $filter->setExcludeGameSeries($params['exclude_game_series']));
+        $this->assertInstanceOf(GamesFilter::class, $filter->setUpdated([
+            new DateTime('2020-12-01'),
+            new DateTime('2020-12-31'),
+        ]));
+        $this->assertInstanceOf(GamesFilter::class, $filter->setMetacritic(80, 100));
+        $this->assertInstanceOf(GamesFilter::class, $filter->setPrecise());
+        $this->assertInstanceOf(GamesFilter::class, $filter->setExact());
         $this->assertEquals($params, $filter->toArray());
     }
 }
