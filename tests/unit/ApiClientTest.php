@@ -39,7 +39,7 @@ class ApiClientTest extends Unit
 
     public function testInit()
     {
-        $cfg = new Config('MyApp', 'en');
+        $cfg = new Config('MyApp');
         $client = new ApiClient($cfg, $this->fakeClient);
 
         $this->assertInstanceOf(CreatorsResource::class, $client->creators());

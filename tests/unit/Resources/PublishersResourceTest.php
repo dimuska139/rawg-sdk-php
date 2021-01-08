@@ -21,37 +21,22 @@ class PublishersResourceTest extends Unit
 
     public function testGetPublishers()
     {
-        $responseBody = file_get_contents('tests/_data/publishers.publishers.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
 
-        $response = $client->publishers()->getPublishers(new PaginationFilter());
-        $this->assertEquals(json_decode($responseBody, true), $response->getData());
+        $response = $client->publishers()->getPublishers((new PaginationFilter())->setPageSize(2));
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertNotNull($response->getData()['count']);
+        $this->assertNotCount(0, $response->getData()['results']);
     }
 
     public function testGetPublisher()
     {
-        $responseBody = file_get_contents('tests/_data/publishers.publisher.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
 
-        $response = $client->publishers()->getPublisher(1);
-        $this->assertEquals(json_decode($responseBody, true), $response->getData());
+        $response = $client->publishers()->getPublisher(3);
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertEquals("Juicy Beast Studio", $response->getData()['name']);
     }
 }

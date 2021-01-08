@@ -21,39 +21,22 @@ class TagsResourceTest extends Unit
 
     public function testGetTags()
     {
-        $responseBody = file_get_contents('tests/_data/tags.tags.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
 
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
-
-        $tagsResponse = $client->tags()->getTags((new PaginationFilter()));
-        $this->assertEquals(json_decode($responseBody, true), $tagsResponse->getData());
-        $this->assertEquals(Status::HTTP_OK, $tagsResponse->getResponse()->getStatusCode());
+        $response = $client->tags()->getTags((new PaginationFilter())->setPageSize(2));
+        $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertNotNull($response->getData()['count']);
+        $this->assertNotCount(0, $response->getData()['results']);
     }
 
     public function testGetTag()
     {
-        $responseBody = file_get_contents('tests/_data/tags.tag.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
 
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
-
-        $tagsResponse = $client->tags()->getTag(1);
-        $this->assertEquals(json_decode($responseBody, true), $tagsResponse->getData());
-        $this->assertEquals(Status::HTTP_OK, $tagsResponse->getResponse()->getStatusCode());
+        $response = $client->tags()->getTag(1);
+        $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertEquals("Survival", $response->getData()['name']);
     }
 }

@@ -21,55 +21,33 @@ class CreatorsResourceTest extends Unit
 
     public function testGetCreators()
     {
-        $responseBody = file_get_contents('tests/_data/creators.creators.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
 
-        $response = $client->creators()->getCreators(new PaginationFilter());
-        $this->assertEquals(json_decode($responseBody, true), $response->getData());
+        $response = $client->creators()->getCreators((new PaginationFilter())->setPageSize(2));
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertNotNull($response->getData()['count']);
+        $this->assertNotCount(0, $response->getData()['results']);
     }
 
     public function testGetCreator()
     {
-        $responseBody = file_get_contents('tests/_data/creators.creator.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
 
         $response = $client->creators()->getCreator(1);
-        $this->assertEquals(json_decode($responseBody, true), $response->getData());
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertEquals("Michael Unsworth", $response->getData()['name']);
     }
 
     public function testGetRoles()
     {
-        $responseBody = file_get_contents('tests/_data/creator-roles.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
 
-        $response = $client->creators()->getRoles(new PaginationFilter());
-        $this->assertEquals(json_decode($responseBody, true), $response->getData());
+        $response = $client->creators()->getRoles((new PaginationFilter())->setPageSize(2));
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertNotNull($response->getData()['count']);
+        $this->assertNotCount(0, $response->getData()['results']);
     }
 }

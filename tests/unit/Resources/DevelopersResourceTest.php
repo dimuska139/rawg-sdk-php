@@ -21,37 +21,22 @@ class DevelopersResourceTest extends Unit
 
     public function testGetDevelopers()
     {
-        $responseBody = file_get_contents('tests/_data/developers.developers.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
 
-        $response = $client->developers()->getDevelopers(new PaginationFilter());
-        $this->assertEquals(json_decode($responseBody, true), $response->getData());
+        $response = $client->developers()->getDevelopers((new PaginationFilter())->setPageSize(2));
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertNotNull($response->getData()['count']);
+        $this->assertNotCount(0, $response->getData()['results']);
     }
 
     public function testGetDeveloper()
     {
-        $responseBody = file_get_contents('tests/_data/developers.developer.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
 
         $response = $client->developers()->getDeveloper(1);
-        $this->assertEquals(json_decode($responseBody, true), $response->getData());
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertEquals("D3 Publisher of America", $response->getData()['name']);
     }
 }

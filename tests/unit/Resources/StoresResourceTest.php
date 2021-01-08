@@ -21,37 +21,25 @@ class StoresResourceTest extends Unit
 
     public function testGetStores()
     {
-        $responseBody = file_get_contents('tests/_data/stores.stores.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
-        $response = $client->stores()->getStores(new OrderingFilter());
-        $this->assertEquals(json_decode($responseBody, true), $response->getData());
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
+
+        $filter = (new OrderingFilter())
+            ->setOrdering("-name")
+            ->setPageSize(2);
+        $response = $client->stores()->getStores($filter);
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertNotNull($response->getData()['count']);
+        $this->assertNotCount(0, $response->getData()['results']);
     }
 
     public function testGetStore()
     {
-        $responseBody = file_get_contents('tests/_data/stores.store.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
-        $client = new Client([
-            'handler' => $handler
-        ]);
-
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
 
         $response = $client->stores()->getStore(1);
-        $this->assertEquals(json_decode($responseBody, true), $response->getData());
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertEquals("Steam", $response->getData()['name']);
     }
 }

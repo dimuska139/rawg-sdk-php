@@ -11,6 +11,7 @@ use Rawg\Config;
 use Rawg\Filters\OrderingFilter;
 use Lukasoppermann\Httpstatus\Httpstatuscodes as Status;
 use GuzzleHttp\Psr7\Response;
+use Rawg\Filters\PaginationFilter;
 
 class PlatformsResourceTest extends Unit
 {
@@ -21,55 +22,33 @@ class PlatformsResourceTest extends Unit
 
     public function testGetPlatforms()
     {
-        $responseBody = file_get_contents('tests/_data/platforms.platforms.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
 
-        $response = $client->platforms()->getPlatforms(new OrderingFilter());
-        $this->assertEquals(json_decode($responseBody, true), $response->getData());
+        $response = $client->platforms()->getPlatforms((new OrderingFilter())->setPageSize(2));
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertNotNull($response->getData()['count']);
+        $this->assertNotCount(0, $response->getData()['results']);
     }
 
     public function testGetPlatform()
     {
-        $responseBody = file_get_contents('tests/_data/platforms.platform.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
 
         $response = $client->platforms()->getPlatform(1);
-        $this->assertEquals(json_decode($responseBody, true), $response->getData());
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertEquals("Xbox One", $response->getData()['name']);
     }
 
     public function testGetListsParents()
     {
-        $responseBody = file_get_contents('tests/_data/platforms.lists.parents.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
 
-        $response = $client->platforms()->getPlatformsParents(new OrderingFilter());
-        $this->assertEquals(json_decode($responseBody, true), $response->getData());
+        $response = $client->platforms()->getPlatformsParents((new OrderingFilter())->setPageSize(2));
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertNotNull($response->getData()['count']);
+        $this->assertNotCount(0, $response->getData()['results']);
     }
 }

@@ -22,37 +22,22 @@ class GenresResourceTest extends Unit
 
     public function testGetGenres()
     {
-        $responseBody = file_get_contents('tests/_data/genres.genres.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
 
-        $response = $client->genres()->getGenres(new OrderingFilter());
-        $this->assertEquals(json_decode($responseBody, true), $response->getData());
+        $response = $client->genres()->getGenres((new OrderingFilter())->setPageSize(2));
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertNotNull($response->getData()['count']);
+        $this->assertNotCount(0, $response->getData()['results']);
     }
 
     public function testGetGenre()
     {
-        $responseBody = file_get_contents('tests/_data/genres.genre.json');
-        $mock = new MockHandler([
-            new Response(Status::HTTP_OK, [], $responseBody)
-        ]);
-        $handler = HandlerStack::create($mock);
-        $client = new Client([
-            'handler' => $handler
-        ]);
-        $cfg = new Config('MyApp', 'en');
-        $client = new ApiClient($cfg, $client);
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
 
         $response = $client->genres()->getGenre(1);
-        $this->assertEquals(json_decode($responseBody, true), $response->getData());
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertEquals("Racing", $response->getData()['name']);
     }
 }

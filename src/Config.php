@@ -27,7 +27,7 @@ class Config
      * @param string $apiKey
      * @param string|null $language
      */
-    public function __construct(string $apiKey, string $language = null)
+    public function __construct(string $apiKey, string $language = 'en')
     {
         $this->apiKey = $apiKey;
         if ($language) {

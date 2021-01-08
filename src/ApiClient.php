@@ -27,12 +27,12 @@ class ApiClient
     /**
      * ApiClient constructor.
      * @param Config $cfg
-     * @param HttpClient|null $httpClient
+     * @param HttpClient|null $mockedHttpClient
      */
-    public function __construct(Config $cfg, HttpClient $httpClient = null)
+    public function __construct(Config $cfg, HttpClient $mockedHttpClient = null)
     {
         $this->config = $cfg;
-        $this->httpClient = $httpClient ?? new HttpClient();
+        $this->httpClient = $mockedHttpClient ?? new HttpClient();
     }
 
     /**

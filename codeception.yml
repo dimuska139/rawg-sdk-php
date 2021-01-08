@@ -8,6 +8,7 @@ actor_suffix: Tester
 extensions:
     enabled:
         - Codeception\Extension\RunFailed
+        - Rawg\Tests\Extensions\SleepExtension
 coverage:
     enabled: true
     show_only_summary: true

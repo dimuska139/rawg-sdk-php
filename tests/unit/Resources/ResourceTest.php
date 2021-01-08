@@ -88,7 +88,7 @@ class ResourceTest extends Unit
         $client = new Client([
             'handler' => $handler
         ]);
-        $cfg = new Config($apiKey, $lang);
+        $cfg = new Config($apiKey);
         $dummyResource = new DummyResource($cfg, $client);
         $dummyResource->getFakeData(new OrderingFilter());
         $dummyResource->getFakeData((new OrderingFilter())->setOrdering('name'));
