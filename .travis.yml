@@ -4,7 +4,7 @@ os:
   - linux
 
 php:
-  - 7.4
+  - 7.4.0
 
 sudo: false
 
