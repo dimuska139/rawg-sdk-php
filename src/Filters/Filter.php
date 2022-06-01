@@ -11,7 +11,7 @@ abstract class Filter
      */
     public function toArray(): array
     {
-        return array_filter(get_object_vars($this), function($element){
+        return array_filter(get_object_vars($this), static function($element){
             return !is_null($element);
         });
     }

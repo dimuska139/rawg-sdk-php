@@ -35,8 +35,8 @@ class DevelopersResourceTest extends Unit
         $cfg = new Config(getenv(ENV_API_KEY));
         $client = new ApiClient($cfg);
 
-        $response = $client->developers()->getDeveloper(1);
+        $response = $client->developers()->getDeveloper(405);
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
-        $this->assertEquals("D3 Publisher of America", $response->getData()['name']);
+        $this->assertEquals("Ubisoft", $response->getData()['name']);
     }
 }

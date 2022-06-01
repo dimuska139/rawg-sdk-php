@@ -98,14 +98,24 @@ class GamesResourceTest extends Unit
         $this->assertNotCount(0, $response->getData()['results']);
     }
 
-    public function testGetGame()
+    public function testGetGameById()
     {
         $cfg = new Config(getenv(ENV_API_KEY));
         $client = new ApiClient($cfg);
 
-        $response = $client->games()->getGame(1);
+        $response = $client->games()->getGame(4286);
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
-        $this->assertEquals("D/Generation HD", $response->getData()['name']);
+        $this->assertEquals("BioShock", $response->getData()['name']);
+    }
+
+    public function testGetGameBySlug()
+    {
+        $cfg = new Config(getenv(ENV_API_KEY));
+        $client = new ApiClient($cfg);
+
+        $response = $client->games()->getGame('bioshock');
+        $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
+        $this->assertEquals("BioShock", $response->getData()['name']);
     }
 
     public function testGetArchievements()
@@ -157,7 +167,7 @@ class GamesResourceTest extends Unit
         $cfg = new Config(getenv(ENV_API_KEY));
         $client = new ApiClient($cfg);
 
-        $response = $client->games()->getTwitchVideos(1);
+        $response = $client->games()->getTwitchVideos(10213);
         $this->assertEquals(Status::HTTP_OK, $response->getResponse()->getStatusCode());
         $this->assertNotNull($response->getData()['count']);
         $this->assertNotCount(0, $response->getData()['results']);

@@ -82,13 +82,13 @@ class GamesResource extends Resource
     }
 
     /**
-     * @param int $id
+     * @param int|string $idOrSlug
      * @return Response
      * @throws ApiException
      */
-    public function getGame(int $id): Response
+    public function getGame($idOrSlug): Response
     {
-        return $this->get("/games/$id");
+        return $this->get("/games/$idOrSlug");
     }
 
     /**
